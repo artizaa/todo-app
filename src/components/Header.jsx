@@ -5,7 +5,7 @@ function Header() {
         <svg>
           <path d="" /> 
         </svg>
-        <h1>TODO Application</h1>
+        <h1>TODO Приложение</h1>
       </>
     );
   }

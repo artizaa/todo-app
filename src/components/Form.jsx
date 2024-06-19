@@ -25,7 +25,7 @@ function Form({ todos, setTodos }) {
         type="text"
         name="todo"
         id="todo"
-        placeholder="Write your next task"
+        placeholder="Можете ввести следующую задачу"
       />
     </label>
     <button>
