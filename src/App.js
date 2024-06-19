@@ -8,8 +8,6 @@ import TODOHero from "./components/TODOHero";
 import TODOList from "./components/TODOList";
 function Home() {
   const [todos, setTodos] = React.useState([]);
-
-  // Retrieve data from localStorage when component mounts
   React.useEffect(() => {
     const storedTodos = localStorage.getItem("todos");
     if (storedTodos) {
